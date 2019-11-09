@@ -1,31 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rully\\Workspace\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj": {}
+    "C:\\Workspace\\Github\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj": {}
   },
   "projects": {
-    "D:\\Rully\\Workspace\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj": {
+    "C:\\Workspace\\Github\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rully\\Workspace\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj",
+        "projectUniqueName": "C:\\Workspace\\Github\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj",
         "projectName": "firsttimersonly",
-        "projectPath": "D:\\Rully\\Workspace\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj",
+        "projectPath": "C:\\Workspace\\Github\\firsttimersonly\\firsttimersonly\\firsttimersonly.csproj",
         "packagesPath": "C:\\Users\\rully\\.nuget\\packages\\",
-        "outputPath": "D:\\Rully\\Workspace\\firsttimersonly\\firsttimersonly\\obj\\",
+        "outputPath": "C:\\Workspace\\Github\\firsttimersonly\\firsttimersonly\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\rully\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/arradev/_packaging/ARNFeeds@Release/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -60,10 +63,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
